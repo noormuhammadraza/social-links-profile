@@ -41,3 +41,15 @@ h6 {
   font-family: "Inter_VariableFont";
   src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --black: hsl(0, 0%, 8%);
+
+  font-family: "Inter_VariableFont";
+
+  font-size: 14px;
+}
