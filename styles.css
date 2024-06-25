@@ -53,3 +53,29 @@ h6 {
 
   font-size: 14px;
 }
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.profile-card {
+  border: 1px solid red;
+  width: 320px;
+  background-color: var(--dark-grey);
+}
+
+.profile-content-wrapper {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 30%;
+  border: 1px dashed yellow;
+}
