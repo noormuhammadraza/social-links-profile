@@ -84,7 +84,7 @@ body {
 }
 
 .profile-info {
-  border: 1px dashed yellow;
+  /* border: 1px dashed yellow; */
   width: 100%;
   text-align: center;
 }
@@ -106,4 +106,21 @@ body {
   font-size: 0.8rem;
   width: 100%;
   text-align: center;
+}
+
+.profile-links {
+  border: 1px dashed yellow;
+  width: 100%;
+}
+
+.profile-links li {
+  list-style: none;
+  border: 1px dashed red;
+  text-align: center;
+  background-color: var(--grey);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.7em;
+  margin-bottom: 0.7em;
+  border-radius: 8px;
 }
