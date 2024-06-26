@@ -64,8 +64,9 @@ body {
 
 .profile-card {
   border: 1px solid red;
-  width: 320px;
+  width: 325px;
   background-color: var(--dark-grey);
+  padding: 1.5em 1.5em 1.5em 1.5em;
 }
 
 .profile-content-wrapper {
@@ -73,7 +74,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
+  gap: 1.25em;
 }
 
 .profile-image {
@@ -110,7 +111,15 @@ body {
 
 .profile-links {
   /* border: 1px dashed yellow; */
-  width: 90%;
+  width: 100%;
+}
+
+.profile-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-weight: 600;
+  font-size: 0.85rem;
 }
 
 .profile-links li {
@@ -118,9 +127,8 @@ body {
   /* border: 1px dashed red; */
   text-align: center;
   background-color: var(--grey);
-  font-weight: 600;
-  font-size: 0.85rem;
+
   padding: 0.9em;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   border-radius: 8px;
 }
