@@ -77,7 +77,24 @@ body {
 
 .profile-image {
   width: 25%;
-  border: 1px dashed yellow;
+  /* border: 1px dashed yellow; */
   border-radius: 50%;
   overflow: hidden;
+}
+
+.profile-info {
+  border: 1px dashed yellow;
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.1em;
+}
+
+.profile-address {
+  color: var(--green);
+  font-size: 0.8rem;
+  font-weight: 600;
 }
