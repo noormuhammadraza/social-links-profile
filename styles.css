@@ -76,6 +76,8 @@ body {
 }
 
 .profile-image {
-  width: 30%;
+  width: 25%;
   border: 1px dashed yellow;
+  border-radius: 50%;
+  overflow: hidden;
 }
