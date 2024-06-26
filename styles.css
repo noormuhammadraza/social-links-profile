@@ -83,7 +83,7 @@ body {
 }
 
 .profile-info {
-  border: 1px dashed yellow;
+  /* border: 1px dashed yellow; */
   text-align: center;
 }
 
@@ -97,4 +97,11 @@ body {
   color: var(--green);
   font-size: 0.8rem;
   font-weight: 600;
+}
+
+.profile-bio {
+  border: 1px dashed yellow;
+  font-size: 0.75rem;
+  width: 100%;
+  text-align: center;
 }
