@@ -173,6 +173,6 @@ body {
   .profile-links li:hover {
     cursor: pointer;
     background-color: var(--green);
-    columns: var(--black);
+    color: var(--black);
   }
 }
