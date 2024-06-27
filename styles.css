@@ -169,4 +169,10 @@ body {
   .profile-links li {
     padding: 1em 0;
   }
+
+  .profile-links li:hover {
+    cursor: pointer;
+    background-color: var(--green);
+    columns: var(--black);
+  }
 }
