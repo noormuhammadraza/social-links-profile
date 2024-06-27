@@ -108,6 +108,7 @@ body {
   font-size: 1rem;
   width: 100%;
   text-align: center;
+  color: hsl(0, 0%, 78%);
 }
 
 .profile-links {
@@ -132,4 +133,40 @@ body {
   padding: 0.9em;
   /* margin-bottom: 1em; */
   border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-card {
+    width: 440px;
+    padding: 3.25em;
+  }
+
+  .profile-content-wrapper {
+    gap: 1.85em;
+  }
+
+  .profile-image {
+    width: 30%;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+    margin-bottom: 0.25em;
+  }
+
+  .profile-address {
+    font-size: 1.15rem;
+  }
+
+  .profile-bio {
+    font-size: 1.1rem;
+  }
+
+  .profile-links ul {
+    font-size: 1.1rem;
+  }
+
+  .profile-links li {
+    padding: 1em 0;
+  }
 }
