@@ -63,14 +63,15 @@ body {
 }
 
 .profile-card {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 325px;
   background-color: var(--dark-grey);
-  padding: 1.15em;
+  padding: 1.65em;
+  border-radius: 12px;
 }
 
 .profile-content-wrapper {
-  border: 1px dashed blue;
+  /* border: 1px dashed blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,7 +94,7 @@ body {
 .profile-name {
   font-size: 1.75rem;
   font-weight: 500;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.15em;
 }
 
 .profile-address {
